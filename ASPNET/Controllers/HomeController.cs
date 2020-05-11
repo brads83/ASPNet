@@ -9,6 +9,7 @@ using ASPNET.Models;
 
 namespace ASPNET.Controllers
 {
+    
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
