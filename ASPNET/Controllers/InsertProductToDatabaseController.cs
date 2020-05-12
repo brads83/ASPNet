@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ASPNET.Controllers
 {
-    public class InsertProductToDatabaseController : Controller
+   /* public class InsertProductToDatabaseController : Controller
     {
         private readonly IProductRepository repo;
 
@@ -15,7 +15,7 @@ namespace ASPNET.Controllers
         {
             this.repo = repo;
         }
-            public IActionResult InsertProductToDatabase(Product productToInsert)
+        public IActionResult InsertProductToDatabase(Product productToInsert)
         {
             repo.InsertProduct(productToInsert);
 
@@ -26,5 +26,5 @@ namespace ASPNET.Controllers
         {
             return View();
         }
-    }
+    }*/
 }

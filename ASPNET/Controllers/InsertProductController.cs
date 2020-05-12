@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ASPNET.Controllers
 {
-    public class InsertProductController : Controller
+   /* public class InsertProductController : Controller
     {
         private readonly IProductRepository repo;
 
@@ -25,5 +25,5 @@ namespace ASPNET.Controllers
         {
             return View();
         }
-    }
+    }*/
 }
